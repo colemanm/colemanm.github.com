@@ -16,6 +16,9 @@
   {% include bookgenres.html %}
 {% endif %}
 {% include google-analytics.html %}
+{% if page.title == "Search" %}
+  {% include search-focus.html %}
+{% endif %}
 </head>
 
 <body>
